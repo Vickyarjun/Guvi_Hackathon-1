@@ -3,9 +3,6 @@ div.classList.add("d-flex", "flex-wrap","justify-content-around","div");
 document.body.appendChild(div);
 div.setAttribute("id", "head");
 
-
-
-
 const betterCode = async () => {
     try{
   let response = await fetch(
@@ -38,9 +35,6 @@ betterCode()
             img.setAttribute("style", "height:30rem");            
             cardpdiv.appendChild(img);
             p = p + 1;
-
-            
-
 
             let cardBody = document.createElement("p");
             cardBody.setAttribute("id", "cardbody");
@@ -88,14 +82,10 @@ betterCode()
             })
             cardpdiv.appendChild(btn);
                 
-            
-
             let divB = document.createElement("p");
             divB.classList.add("d-flex", "flex-column");
             cardText.appendChild(divB);
-
-
-
+            
             let bName = document.createElement("p");
             bName.setAttribute("id", "bname");
             bName.innerText = "Book Name 📕:"+ x.name; 
@@ -124,8 +114,6 @@ betterCode()
             divB.appendChild(bRd);
 
         })
-
-
 
     })
 
