@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rye&display=swap');
+
+.cardpdiv{
+    background-color: rgb(228, 209, 173) !important;
+}
+.div{
+    background-image: url(http://www.raderrenovations.com/wp-content/uploads/2017/06/AdobeStock_104134300.jpeg);
+}
+.mbtn:hover{
+    font-size: 120%;
+    zoom: 105%;
+    background-color: #e09f12;
+    color: #941619;
+    transition: ease-in-out 0.1s;
+}
+.btn{
+    margin-right: 7px;
+}
+.navbarbg{
+    background-image: url(https://i.pinimg.com/originals/fe/b4/1e/feb41e92ebcda7aeda4e3da4d88da3c3.jpg);
+}
+.brand{
+    border: 2rem !important;
+    font-size: x-large !important;
+    color: rgb(255, 197, 72) !important;
+    font-weight: 700;
+    font-family: 'Rye', cursive;
+    font-style: italic !important;
+    letter-spacing:3px;
+}
+.infobtn{
+    background-color: #941619;
+    color:#e09f12;
+}
+.navimg{
+    border-radius: 50rem;
+    height: 3rem;
+    width: 3rem;
+    overflow: hidden;
+}
